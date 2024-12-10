@@ -6,6 +6,8 @@ local Tab = Window:CreateTab("Installation", "rewind")
 local Button = Tab:CreateButton({
    Name = "Install",
    Callback = function()
-   -- The function that takes place when the button is pressed
+   Rayfield:Destroy()
+   wait(0.5)
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/G-Hub/refs/heads/main/G-Hub.lua?token=GHSAT0AAAAAAC3THLOQGTPXENLAB3IDCCMIZ2YZNFQ", true))()
    end,
 })

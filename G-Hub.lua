@@ -32,3 +32,14 @@ local Window = Rayfield:CreateWindow({
       Key = {"jfkgrjjdkgjrjdjg"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+
+local Tab = Window:CreateTab("Installation", "rewind")
+
+local Button = Tab:CreateButton({
+   Name = "Install",
+   Callback = function()
+   Rayfield:Destroy()
+   wait(0.5)
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/G-Hub/refs/heads/main/G-Hub.lua?token=GHSAT0AAAAAAC3THLORPZCKQ47LLULO47QIZ2YZTPQ", true))()
+   end,
+})

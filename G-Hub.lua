@@ -10,7 +10,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "GET IT NEOWWW!1!1!1",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/G-Hub/refs/heads/main/G-Hub.lua?token=GHSAT0AAAAAAC3THLORPZCKQ47LLULO47QIZ2YZTPQ", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/G-Hub/refs/heads/main/G-Hub.lua?token=GHSAT0AAAAAAC3THLORZLQ33GGFN6KXHVLEZ2Y7KHA", true))()
   	end    
 })
 
